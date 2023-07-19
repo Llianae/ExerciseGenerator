@@ -11,7 +11,6 @@ import React, { useEffect, useState } from "react";
 function Exercice() {
   const max = 100;
   const min = -100;
-  const signArray = ["+", "-", "*", "/"];
 
   const [yourAnswer, setYourAnswer] = useState(0);
   const [numberOne, setNumberOne] = useState(0);
